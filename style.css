@@ -1,0 +1,421 @@
+body { 
+  font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #a2ff38;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 9999;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar-item {
+    color: #000000;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+
+  .hidden {
+    display: none;
+  }
+  
+
+  .navbar-item {
+    /* Otros estilos... */
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-item:hover {
+    color: #727272; /* Color de resaltado al pasar el cursor */
+  }
+  
+
+
+  #plus {
+    /* Otros estilos... */
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  #plus {
+    /* Otros estilos... */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #plus i {
+    font-size: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  #plus:hover i {
+    transform: scale(1.2); /* Ajusta el valor según el tamaño deseado */
+  }
+  
+  
+  #plus i {
+    color: white;
+    font-size: 20px;
+  }
+  
+
+
+
+
+
+
+/*LIKES DE PROFESORES*/
+
+#favorites {
+  padding-top: 180px;
+  text-align: center;
+}
+
+
+
+
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 24px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #0dc507;
+}
+
+.social-icons i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+  /*FINAL APP WEB*/
+  #profile {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding-top: 180px;
+   
+  }
+  
+  .profile-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .profile-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+
+
+  /*Principal Header*/
+  .seccion-principal {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .seccion-principal h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+    color: #ddd;
+    left: 0;
+    margin: 0;
+    padding-top: 10px;
+    width: 100%;
+    background-color: #000000;
+    opacity: 1;
+    font-weight: 300;
+    transition: opacity 0.3s ease;
+    border-bottom: 1px solid #3f3f3f;
+    padding-bottom: 10px;
+  }
+  
+  .seccion-principal.h1-hidden h1 {
+    opacity: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*DropBox Work*/
+  
+  #modal {
+    display: none; /* Ocultar el modal por defecto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    z-index: 9999;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+
+
+
+
+  
+/* Estilos CSS para la cruz de cierre */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 2.8rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #upload-form input,
+  #upload-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  #upload-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #upload-form button:hover {
+    background-color: #45a049;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*TAREAS ESTILOS CSS*/
+
+ .tarea {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.tarea h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.tarea p {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+}
+
+
+
+
+/*ESTILOS DE LAS SECCIONES DEL NAV BAR*/
+
+.section {
+      display: none;
+    }
+
+    .section.active {
+      display: block;
+    }
+
+
+
+    /* Estilos para la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+
+
+    /*SEARCH*/
+   
+
+
+
+
+#search h2 {
+
+text-align: center;
+
+
+
+
+  }
+  .pdf-link {
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .subject-section.open .pdf-link {
+    display: block;
+  }
+  
+  .subject-section {
+    padding-top: 40px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .subject-section h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .pdf-link button {
+    display: flex;
+    margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  }
+  
+ .btn{
+  
+  font-family: Roboto, sans-serif;
+  font-weight: 0;
+  font-size: 14px;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 10px 30px;
+  border: solid #000000 2px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  transition : 1000ms;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  }
+  
+  .btn:hover{
+  
+  transition : 1000ms;
+  padding: 10px 50px;
+  transform : translateY(-0px);
+  background-color: #000000;
+  color: #36cc00;
+  border: solid 2px #ffffff;
+  }
+
+
+
+.btn:focus {
+  opacity: 0;
+}
+
+
+
